@@ -1,4 +1,7 @@
 (function () {
+  if (!$) {
+    console.error('jQuery is required')
+  }
   let openin = {
     apps: [
       {
