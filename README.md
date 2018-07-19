@@ -17,3 +17,4 @@
 	openin.auto()
 	```
 4. Done!
+## [Read the docs](https://oss.bygeorgenet.me/openin)

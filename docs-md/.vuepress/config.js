@@ -16,8 +16,18 @@ module.exports = {
     // defaults to false, set to true to enable
     editLinks: true,
     sidebar: [
-      '/guide.md'
+      '/guide.md',
+      '/extending.md',
+      {
+        title: 'API Reference',
+        collapsable: false,
+        href: '/reference.md',
+        children: [
+          ['/reference.md#openin-auto', 'openin.auto()'],
+          ['/reference.md#openin-open-url-string', 'openin.open(url: String)'],
+          ['/reference.md#openin-registerapp-app', 'openin.registerApp(app)']
+        ]
+      }
     ]
-  },
-  base: '/openin/'
+  }
 }

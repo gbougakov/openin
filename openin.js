@@ -65,6 +65,20 @@
       openin.apps.push(app)
     }
   }
+  let iOS = /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent) && !window.MSStream;
+  if (iOS) { // Check if device is an iOS or macOS device because Apple Maps does not have a web UI
+    openin.registerApp({
+      regex: /^https:\/\/www.google.com\/maps\/search\/\?api=1&query=(.*)/g, // Regex of the URL that app can open
+      generateLink(url) { // Method called to generate app link
+        let query = url.match(/query=(.*)/g)[0].split('=')[1] // Extract the query out of URL
+        return {
+          url: 'http://maps.apple.com/?q='+query, // Generated url
+          alt: 'Google Maps', // For accessibility purposes
+          icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin/appicons/AppleMaps.png' // Icon URL
+        }
+      }
+    })
+  }
   $('body').append('<div class="openin">' +
     '    <div class="openin-bg"></div>' +
     '    <div class="openin-modal">' +

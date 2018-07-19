@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /icons8-link-96.png
+heroImage: ./icons8-link-96.png
 actionText: Get Started →
 actionLink: /guide.md
 features:
