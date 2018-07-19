@@ -60,6 +60,9 @@
           openin.open($(this).attr('href'))
         })
       })
+    },
+    registerApp(app) {
+      openin.apps.push(app)
     }
   }
   $('body').append('<div class="openin">' +
