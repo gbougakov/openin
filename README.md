@@ -3,7 +3,7 @@
 
 View the [demo](https://codepen.io/GeorgeNet/pen/KBNgbj)
 
-![](./docs-md/demo.gif)
+![](./docs/demo.gif)
 
 ## Get started
 1. Include the stylesheet
