@@ -14,6 +14,7 @@ module.exports = {
     docsRepo: 'gbougakov/openin',
     // if your docs are in a specific branch (defaults to 'master'):
     docsBranch: 'master',
+    docsDir: 'docs-md',
     // defaults to false, set to true to enable
     editLinks: true,
     sidebar: [
