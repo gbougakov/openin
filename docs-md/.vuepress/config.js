@@ -1,6 +1,7 @@
 module.exports = {
   dest: '../docs',
   title: 'Open in',
+  base: '/openin/',
   description: 'Let your users choose the app to open the link',
   themeConfig: {
     sidebar: false,
