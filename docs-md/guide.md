@@ -1,5 +1,5 @@
 # Get started
-View the [demo](demo.html)
+View the [demo](https://oss.bygeorgenet.me/openin/demo.html)
 1. Include the stylesheet
 	```html
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gbougakov/openin/openin.min.css"/>
