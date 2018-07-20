@@ -1,5 +1,5 @@
 # Get started
-View the [demo](https://codepen.io/GeorgeNet/pen/KBNgbj)
+View the [demo](demo.html)
 1. Include the stylesheet
 	```html
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gbougakov/openin/openin.min.css"/>
