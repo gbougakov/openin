@@ -1,12 +1,12 @@
 # API Reference
 
-### `openin.auto()`
+## `openin.auto()`
 Automatically find links on the page and turn them into “openin links”
 
-### `openin.open(url: String)`
+## `openin.open(url: String)`
 Open the app picker for the passed URL or if the URL is not recognised, just open the link
 
-### `openin.registerApp(app)`
+## `openin.registerApp(app)`
 `app` - app object
 ```js
 {
