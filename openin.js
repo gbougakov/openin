@@ -11,7 +11,7 @@
           return {
             url: url,
             alt: 'Google Maps',
-            icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin/appicons/GoogleMaps.png'
+            icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin@1.3/appicons/GoogleMaps.png'
           }
         }
       },
@@ -22,7 +22,7 @@
           return {
             url: 'https://yandex.ru/maps/?mode=search&text=' + url.match(/query=(.*)/g)[0].split('=')[1],
             alt: 'Yandex Maps',
-            icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin/appicons/YandexMaps.jpg'
+            icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin@1.3/appicons/YandexMaps.jpg'
           }
         }
       }
@@ -77,7 +77,7 @@
         return {
           url: 'http://maps.apple.com/?q='+query, // Generated url
           alt: 'Google Maps', // For accessibility purposes
-          icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin/appicons/AppleMaps.png' // Icon URL
+          icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin@1.3/appicons/AppleMaps.png' // Icon URL
         }
       }
     })
