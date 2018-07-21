@@ -20,17 +20,8 @@ module.exports = {
     sidebar: [
       '/guide.md',
       '/extending.md',
-      './supported.md',
-      {
-        title: 'API Reference',
-        collapsable: false,
-        href: '/reference.md',
-        children: [
-          ['/reference.md#openin-auto', 'openin.auto()'],
-          ['/reference.md#openin-open-url-string', 'openin.open(url: String)'],
-          ['/reference.md#openin-registerapp-app', 'openin.registerApp(app)']
-        ]
-      }
+      '/supported.md',
+      '/reference.md'
     ]
   }
 }
