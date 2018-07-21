@@ -1,7 +1,7 @@
 # Open in
 > Let your users choose the app to open the link
 
-View the [demo](https://codepen.io/GeorgeNet/pen/KBNgbj)
+View the [demo](https://oss.bygeorgenet.me/openin/demo.html)
 
 ![](./docs/demo.gif)
 
