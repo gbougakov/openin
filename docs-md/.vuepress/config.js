@@ -20,6 +20,7 @@ module.exports = {
     sidebar: [
       '/guide.md',
       '/extending.md',
+      './supported.md',
       {
         title: 'API Reference',
         collapsable: false,
