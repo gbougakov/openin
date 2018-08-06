@@ -7,5 +7,14 @@ Out:
 - Yandex Maps URL
 - Google Maps URL
 
+## Share Sheet
+`#share:type=social:url=<your url here>`
+
+Out:
+- Twitter Share Button
+- Facebook Share Button
+
+*Note:* This link does not embed 3rd party JavaScript and tracking beacons in form of share buttons
+
 ------
 More to come...
