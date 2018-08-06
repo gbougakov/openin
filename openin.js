@@ -25,6 +25,28 @@
             icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin@1.3/appicons/YandexMaps.jpg'
           }
         }
+      },
+      {
+        regex: /#share:type=social:url=(.*)/g,
+        generateLink (url) {
+          // Twitter
+          return {
+            url: 'http://www.twitter.com/intent/tweet?url=' + url.match(/url=(.*)/g)[0].split('=')[1],
+            alt: 'Twitter',
+            icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin@1.4/appicons/Twitter.png'
+          }
+        }
+      },
+      {
+        regex: /#share:type=social:url=(.*)/g,
+        generateLink (url) {
+          // Facebook
+          return {
+            url: 'https://www.facebook.com/sharer/sharer.php?u=' + url.match(/url=(.*)/g)[0].split('=')[1],
+            alt: 'Facebook',
+            icon: 'https://cdn.jsdelivr.net/gh/gbougakov/openin@1.4/appicons/Facebook.png'
+          }
+        }
       }
     ],
     open (url) {
